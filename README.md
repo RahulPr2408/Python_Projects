@@ -218,3 +218,28 @@ The WPM Typing Test project is a command-line application designed to measure ty
 4. Run the script using `python wpm_typing_test.py`.
 5. Follow the on-screen instructions to start the test, type the displayed text, and see your typing speed.
 
+## Project 11: Shortest Path Finder
+
+### Description
+The Shortest Path Finder project is an interactive command-line application that visualizes the process of finding the shortest path in a maze. The user can choose between two algorithms: Breadth-First Search (BFS) and A* (A-star), allowing them to compare and analyze their performance. The maze contains walls, a start point, and an endpoint. The program displays the search process in real-time and highlights the final shortest path once found.
+
+### Features
+- **Algorithm Selection:** Users can switch between BFS and A* algorithms and compare their efficiency.
+- **Real-Time Visualization:** Displays the search process dynamically as the algorithm explores the maze.
+- **Path Highlighting:** Shows the shortest path once the algorithm reaches the endpoint.
+- **Interactive User Input:** Users can select which algorithm to use at runtime.
+- **Maze Customization:** Users can modify the maze structure and dimensions to test various scenarios.
+- **Performance Comparison:** Analyze the performance of BFS and A* in terms of speed and path length.
+
+### Technology Used
+- **Python**
+- **Curses Module** (for handling terminal input and output)
+- **Queue And Heaps** (for BFS and A* algorithms) 
+
+### How to Run
+1. Ensure Python is installed on your machine.
+2. Save the script as `shortest_path_finder.py`.
+3. Run the script using `python shortest_path_finder.py`.
+4. Follow the on-screen instructions to select between BFS and A* algorithms.
+5. Watch as the algorithm explores the maze, and compare the final paths for both algorithms.
+
